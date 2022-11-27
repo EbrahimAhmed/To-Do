@@ -15,6 +15,7 @@ class App extends Component
         
         ]
     }
+    /* To Delete Items from ToDo List */
     deleteItem = (id)=>
     {
         let items = this.state.items.filter(item => {
